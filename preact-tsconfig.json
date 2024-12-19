@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "sourceMap": true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": ["es2015", "dom"],
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "react": ["./node_modules/preact/compat/"],
+      "react/jsx-runtime": ["./node_modules/preact/jsx-runtime"],
+      "react-dom": ["./node_modules/preact/compat/"],
+      "react-dom/*": ["./node_modules/preact/compat/*"]
+    }
+  },
+  "include": ["src/preact.ts"],
+  "exclude": ["node_modules/**/*"]
+}

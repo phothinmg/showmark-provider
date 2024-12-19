@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "sourceMap": true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": ["es2015", "dom"]
+  },
+  "include": ["src/react.ts"],
+  "exclude": ["node_modules/**/*"]
+}

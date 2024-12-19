@@ -1,0 +1,41 @@
+{
+  "name": "showmark-provider",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    "react": {
+      "types": "./lib/react.d.ts",
+      "import": "./lib/react.js"
+    },
+    "preact": {
+      "types": "./lib/preact.d.ts",
+      "import": "./lib/preact.js"
+    }
+  },
+  "scripts": {
+    "check": "biome check --write",
+    "format": "biome format --write",
+    "react": "tsc -p react-tsconfig.json",
+    "preact": "tsc -p preact-tsconfig.json"
+  },
+  "keywords": [
+    "Showdown.js",
+    "MDX Components",
+    "MarkdownProvider",
+    "react",
+    "preact"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/react": "^19.0.2",
+    "showmark-types": "^0.1.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "preact": "^10.25.3",
+    "react": "^19.0.0"
+  }
+}
