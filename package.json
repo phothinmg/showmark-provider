@@ -37,5 +37,9 @@
   "dependencies": {
     "preact": "^10.25.3",
     "react": "^19.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phothinmg/showmark-provider.git"
   }
 }
